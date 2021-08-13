@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "PT Sans", sans-serif;
+}
+
+#root {
+  min-height: 100vh;
+  position: relative;
+}
+
+.about,
+.projects {
+  align-self: center;
+  margin: 30px 0 40px;
+  color: #fff;
+}
+
+.container-outer {
+  background: rgb(28, 28, 28);
+  background: linear-gradient(
+    180deg,
+    rgba(26, 23, 23, 1) 0%,
+    rgba(21, 77, 120, 1) 50%,
+    rgba(36, 36, 36, 1) 100%
+  );
+}
+
+.home-container-outer {
+  background: rgb(28, 28, 28);
+  background: linear-gradient(
+    180deg,
+    rgba(21, 77, 120, 0) 0%,
+    rgba(0, 0, 0, 0.1) 10%,
+    rgba(21, 77, 120) 60%,
+    rgba(36, 36, 36, 1) 100%
+  );
+}
